@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-export default function Index() {
+export default function Home() {
   const [navbar, setNavbar] = useState(false);
 
   return (
