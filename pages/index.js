@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Logo from "../assets/images/Logo.png";
-import Struktur from "../assets/images/Struktur.png";
-import GC from "../assets/images/GC.png";
-import SC from "../assets/images/SC.png";
+import Logo from "../assets/Logo.png";
+import Struktur from "../assets/Struktur.png";
+import GC from "../assets/GC.png";
+import SC from "../assets/SC.png";
 import Image from "next/image";
 import Link from "next/link";
 

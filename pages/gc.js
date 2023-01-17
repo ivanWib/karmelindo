@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
-import Logo from "../assets/images/Logo.png";
-import Gedung1 from "../assets/images/Gedung1.png";
+import Logo from "../assets/Logo.png";
+import Gedung1 from "../assets/Gedung1.png";
 
 export default function Gc() {
   const [navbar, setNavbar] = useState(false);
