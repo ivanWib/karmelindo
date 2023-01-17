@@ -1,9 +1,5 @@
 import { useState } from "react";
-import Logo from "../assets/Logo.png";
-import Struktur from "../assets/Struktur.png";
-import GC from "../assets/GC.png";
-import SC from "../assets/SC.png";
-import Image from "next/image";
+// import img from "next/image";
 import Link from "next/link";
 
 
@@ -20,7 +16,7 @@ export default function Home() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="/">
               <div className="flex gap-4 items-center cursor-pointer">
-                <Image src={Logo} width="100" height="100" alt="" />
+                <img src="../assets/Logo.png" width="100" height="100" alt="" />
               </div>
             </a>
 
@@ -93,7 +89,7 @@ export default function Home() {
     {/* HERO */}
     <div className="grid md:flex justify-between bg-gray-300">
       <div className="flex justify-center md:m-28">
-        <Image src={Logo} alt="" className="w-36 mt-3 md:w-60 h-fit" />
+        <img src="../assets/Logo.png" alt="" className="w-36 mt-3 md:w-60 h-fit" />
       </div>
 
       <div className="mx-5 md:w-1/2 text-justify md:mx-10">
@@ -125,11 +121,11 @@ export default function Home() {
       <div className="text-2xl mt-2 md:text-4xl grid justify-center font-ibm-plex-mono font-bold md:mt-5">Jasa</div>
       <div className="flex justify-center gap-10 md:gap-20 m-5">
         <Link href="/gc">
-          <Image src={GC} alt="" />
+          <img src="../assets/GC.png" alt="" />
         </Link>
         
         <Link href="/sc">
-          <Image src={SC} alt="" />
+          <img src="../assets/SC.png" alt="" />
         </Link>
       </div>
 
@@ -206,14 +202,14 @@ export default function Home() {
     <div className="bg-gray-300 grid justify-center gap-3">
       <div className="text-2xl md:text-4xl grid justify-center font-ibm-plex-mono font-bold mt-3">Struktur Organisasi</div>
       <div className="mb-3">
-        <Image src={Struktur} alt="" />
+        <img src="../assets/Struktur.png" alt="" />
       </div>
     </div>
 
     {/* FOOTER */}
     <div className="p-3 md:flex bg-red-600 text-white justify-between md:text-lg">
       <div className="md:m-5">
-        <Image src={Logo} width="100" height="100" alt="" />
+        <img src="../assets/Logo.png" width="100" height="100" alt="" />
         <div className="mt-3 md:mt-5">
           Ruko Sutera Niaga IIE No.2, Raya Serpong KM 2, Tangerang 15325
         </div>

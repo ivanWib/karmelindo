@@ -1,6 +1,4 @@
-import Logo from "../assets/Logo.png";
 import { useState } from "react";
-import Image from "next/image";
 
 export default function Sc() {
   const [navbar, setNavbar] = useState(false);
@@ -15,7 +13,7 @@ export default function Sc() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="/">
               <div className="flex gap-4 items-center cursor-pointer">
-                <Image src={Logo} width="100" height="100" alt="" />
+                <img src="../assets/Logo.png" width="100" height="100" alt="" />
               </div>
             </a>
 
@@ -120,12 +118,10 @@ export default function Sc() {
 
     </div>
 
-
-
 {/* FOOTER */}
 <div className="p-3 md:flex bg-red-600 text-white justify-between md:text-lg">
       <div className="md:m-5">
-        <Image src={Logo} width="100" height="100" alt="" />
+        <img src="../assets/Logo.png" width="100" height="100" alt="" />
         <div className="mt-3 md:mt-5">
           Ruko Sutera Niaga IIE No.2, Raya Serpong KM 2, Tangerang 15325
         </div>
