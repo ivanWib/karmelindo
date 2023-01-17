@@ -1,8 +1,6 @@
-import Logo from "../asset/logo.png";
+import Logo from "../assets/images/Logo.png";
 import { useState } from "react";
 import Image from "next/image";
-
-
 
 export default function Sc() {
   const [navbar, setNavbar] = useState(false);
