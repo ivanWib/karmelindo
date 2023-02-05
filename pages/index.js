@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../assets/Logo.png";
-import Gc from "../assets/Gc.png";
-import Sc from "../assets/Sc.png";
-import Struktur from "../assets/Struktur.png";
+import Logo from "../public/Logo.png";
+import Gc from "../public/GC.png";
+import Sc from "../public/Sc.png";
+import Struktur from "../public/Struktur.png";
 
 
 
