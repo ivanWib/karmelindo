@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import Logo from "../public/Logo.png";
 import Gc from "../public/GC.png";
 import Sc from "../public/Sc.png";
@@ -123,7 +123,7 @@ export default function Home() {
 
 
     {/* JASA */}
-      <div className="text-2xl mt-2 md:text-4xl grid justify-center font-ibm-plex-mono font-bold md:mt-5">Jasa</div>
+      {/* <div className="text-2xl mt-2 md:text-4xl grid justify-center font-ibm-plex-mono font-bold md:mt-5">Jasa</div>
       <div className="flex justify-center gap-10 md:gap-20 m-5">
         <Link href="/gc">
           <Image src={Gc} alt="" />
@@ -132,7 +132,7 @@ export default function Home() {
         <Link href="/sc">
           <Image src={Sc} alt="" />
         </Link>
-      </div>
+      </div> */}
 
 
 
