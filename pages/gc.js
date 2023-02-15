@@ -1,4 +1,7 @@
 import { useState } from "react";
+import Image from "next/image";
+import Logo from "../assets/Logo.png";
+import Gedung1 from "../assets/Gedung1.png";
 
 export default function Gc() {
   const [navbar, setNavbar] = useState(false);
@@ -13,7 +16,7 @@ export default function Gc() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="/">
               <div className="flex gap-4 items-center cursor-pointer">
-                <img src="../assets/Logo.png" width="100" height="100" alt="" />
+                <Image src={Logo} alt="" />
               </div>
             </a>
 
@@ -101,7 +104,7 @@ export default function Gc() {
 
 
     <div className="card lg:card-side bg-base-100 shadow-xl">
-      <figure><img src="../assets/Gedung1.png" alt="" /></figure>
+      <figure><Image src={Gedung1} alt="" /></figure>
       <div className="card-body">
         <h1 className="card-title">Karmelindo membangun proyek yang berkualitas, dengan:</h1>
         <div className="card-text">
@@ -128,7 +131,7 @@ export default function Gc() {
 {/* FOOTER */}
 <div className="p-3 md:flex bg-red-600 text-white justify-between md:text-lg">
       <div className="md:m-5">
-        <img src="../assets/Logo.png" width="100" height="100" alt="" />
+        <Image src={Logo} alt="" />
         <div className="mt-3 md:mt-5">
           Ruko Sutera Niaga IIE No.2, Raya Serpong KM 2, Tangerang 15325
         </div>
