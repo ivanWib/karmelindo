@@ -19,7 +19,7 @@ export default function Home() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="/">
               <div className="flex gap-4 items-center cursor-pointer">
-                <Image src={Logo} alt="" />
+                <Image src={Logo} alt="" className="w-28" />
               </div>
             </a>
 
