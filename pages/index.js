@@ -228,7 +228,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              Email : karmelindo@yahoo.con
+              Email : Office@Karmelindo
             </div>
       </div>
     </div>

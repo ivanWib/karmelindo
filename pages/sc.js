@@ -137,7 +137,7 @@ export default function Sc() {
               </div>
             </div>
             <div>
-              Email : karmelindo@yahoo.con
+              Email : Office@Karmelindo
             </div>
       </div>
     </div>
