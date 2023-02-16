@@ -163,39 +163,39 @@ export default function Home() {
 
 
     {/* VALUES */}
-    <div className="mt-10 mb-10">
+    <div className="mt-2 mb-5">
       <div className="text-2xl md:text-4xl grid justify-center font-ibm-plex-mono font-bold ">Values</div>
       <div className="text-center">
         Nilai-nilai penting berikut kami terapkan untuk menuntun kami dalam mencapai visi dan mengambil keputusan demi terwujudnya kualitas pelayanan kami.
       </div>
 
-      <div className="grid justify-center gap-3 mt-3 md:flex md:m-3 text-justify">
+      <div className="grid justify-center gap-3 mt-3 md:flex md:m-3">
 
         <div className="card w-96 bg-base-100 shadow-xl">
           <div className="card-body">
             <h2 className="card-title">Integritas</h2>
-            <p>Karmelindo menjunjung tinggi kepercayaan yang diberikan dalam menjalankan pelaksanaan proyek dengan berkomitmen, bertanggung jawab, dan berperilaku jujur.</p>
+            <p className="text-justify">Karmelindo menjunjung tinggi kepercayaan yang diberikan dalam menjalankan pelaksanaan proyek dengan berkomitmen, bertanggung jawab, dan berperilaku jujur.</p>
           </div>
         </div>
 
         <div className="card w-96 bg-base-100 shadow-xl">
           <div className="card-body">
             <h2 className="card-title">Kerja Sama</h2>
-            <p>Melaksanakan kerja sama yang erat antar pemangku kepentingan, menjalin hubungan baik dan saling percaya, serta menjaga persaingan sehat antar rekan kerja sehingga meningkatkan pekerjaan yang lebih optimal.</p>
+            <p className="text-justify">Melaksanakan kerja sama yang erat antar pemangku kepentingan, menjalin hubungan baik dan saling percaya, serta menjaga persaingan sehat antar rekan kerja sehingga meningkatkan pekerjaan yang lebih optimal.</p>
           </div>
         </div>
 
         <div className="card w-96 bg-base-100 shadow-xl">
           <div className="card-body">
             <h2 className="card-title">Keamanan, Keselamatan, Kesehatan, dan Keberlanjutan</h2>
-            <p>Karmelindo mengutamakan keamanan, kesehatan, keselamatan kerja, dan aspek lingkungan sekitar.</p>
+            <p className="text-justify">Karmelindo mengutamakan keamanan, kesehatan, keselamatan kerja, dan aspek lingkungan sekitar.</p>
           </div>
         </div>
 
         <div className="card w-96 bg-base-100 shadow-xl">
           <div className="card-body">
             <h2 className="card-title">Kompeten dan Adaptif</h2>
-            <p>Karmelindo terus meningkatkan mutu dan kapabilitas pelayanan dengan mengkaji aspek manajemen, sumber daya, teknologi, serta terus meningkatkan kepedulian lingkungan.</p>
+            <p className="text-justify">Karmelindo terus meningkatkan mutu dan kapabilitas pelayanan dengan mengkaji aspek manajemen, sumber daya, teknologi, serta terus meningkatkan kepedulian lingkungan.</p>
           </div>
         </div>
       </div>

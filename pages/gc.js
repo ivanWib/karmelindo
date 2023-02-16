@@ -128,6 +128,26 @@ export default function Gc() {
   </div>
 </div>
 
+{/* peran */}
+<div className="bg-white grid justify-center p-1">
+  <p className="text-sm md:text-lg mt-1">
+    Peran Karmelindo sebagai general contractor melayani dalam lingkup pelayanan :
+  </p>
+
+  <div className="bg-gray-400 text-center text-white mb-3 md:text-lg">
+    <p>Build</p>
+    <hr />
+    <p>Design & Build</p>
+    <hr />
+    <p>In House Contractor</p>
+    <hr />
+  </div>
+
+
+</div>
+
+
+
 {/* FOOTER */}
 <div className="p-3 md:flex bg-red-600 text-white justify-between md:text-lg">
       <div className="md:m-5">

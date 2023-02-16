@@ -116,8 +116,7 @@ export default function Sc() {
         </ul>
       </div>
     </div>
-
-    </div>
+  </div>
 
 {/* FOOTER */}
 <div className="p-3 md:flex bg-red-600 text-white justify-between md:text-lg">
