@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../public/Logo.png";
-import Gc from "../public/GC.png";
-import Sc from "../public/SC.png"
-import Struktur from "../public/Struktur.png";
+import Logo from "../assets/Logo.png";
+import Gc from "../assets/GC.png";
+import Sc from "../assets/SC.png"
+import Struktur from "../assets/Struktur.png";
 
 export default function Home() {
   const [navbar, setNavbar] = useState(false);
